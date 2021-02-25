@@ -1,0 +1,11 @@
+npm install -g serve
+"The -g flag instructs the npm client to install the serve package globally, which means we can run the serve command at any time in our terminal.
+
+To serve a folder we run serve {path} where {path} is a path to the folder we want to serve."
+
+node -e "fs.mkdirSync('static')" shortcut way to create file in node
+
+"serve static" (folder is called static) - this command runs our static folder which contains the index.html file with javascript <script file> inserted in the head tag:
+
+"We have now used Node.js with the serve package to serve a folder with an index.html file and some client-side JavaScript in an app.js file. This is preferable to loading files into the browser from the file system as the browser behaves differently (mostly for security reasons) than when those files are hosted."
+
